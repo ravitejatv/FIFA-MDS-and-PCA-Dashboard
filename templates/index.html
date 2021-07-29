@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="../static/lib/d3.v4.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="../static/css/index.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <li><img id="img" src="../static/img/fifa_background.png" /></li>
+            <li><a class="active" href="#scree" onclick="showScreePlot()">Scree Plot/ Scatter Matrix</a></li>
+            <li><a class="active" href="#scree" onclick="showMDSPrecomputedPlot()">MDS Correlation/PCP Plot</a></li>
+            <li><a class="active" href="#scree" onclick="showMDSPlot()">MDS Plot</a></li>
+            <li><a class="active" href="#scree" onclick="showbiPlot()">Bi Plot</a></li>
+        </ul>
+    </div>
+    <div class="screediv">
+        <p class="heading"> Scree Plot </p>
+        <svg class="screesvg" width="1200" height="625"></svg>
+    </div>
+    <div class="mdseculiddiv">
+        <p class="heading"> MDS Euclidian Plot </p>
+        <svg class="mdseuclidiansvg" width="1300" height="625"></svg>
+    </div>
+    <div class="mdsprecompdiv">
+        <p class="heading"> MDS Precomputed Plot </p>
+        <svg class="mdsprecomputedsvg" width="700" height="500"></svg>
+    </div>
+    <div class="pcpdiv">
+        <p class="heading">PCP</p>
+        <svg class="pcpsvg" width="1300" height="625"></svg>
+    </div>
+    <div class="pcaloadings">
+        <p class="heading"> PCA Loadings </p>
+    </div>
+    <div class="scatterdiv">
+        <p class="heading"> Scatter Matrix </p>
+        <svg class="scattersvg" width="1300" height="625"></svg>
+    </div>
+    <div class="biplotdiv">
+        <p class="heading"> Bi Plot </p>
+        <svg class="biplotsvg" width="1300" height="625"></svg>
+    </div>
+
+
+    <script src="../static/js/index.js"></script>
+    <script src="../static/js/screeplot.js"></script>
+    <script src="../static/js/scattermatrix.js"></script>
+    <script src="../static/js/pcaloadings.js"></script>
+    <script src="../static/js/biplot.js"></script>
+    <script src="../static/js/mdsplot.js"></script>
+    <script src="../static/js/pcpplot.js"></script>
+</body>
+
+</html>

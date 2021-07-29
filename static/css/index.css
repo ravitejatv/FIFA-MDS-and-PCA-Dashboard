@@ -1,0 +1,104 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.screesvg {
+    margin-left: 7.5%;
+    margin-top: 1%;
+    background-color: rgb(255, 255, 255);
+}
+
+.pcpsvg {
+    margin-left: 5%;
+    margin-top: 1%;
+    background-color: rgb(255, 255, 255);
+}
+
+.scattersvg {
+    margin-left: 5%;
+    margin-top: 1%;
+    background-color: rgb(255, 255, 255);
+}
+
+.biplotsvg {
+    margin-left: 5%;
+    margin-top: 1%;
+    background-color: rgb(255, 255, 255);
+}
+
+.mdseuclidiansvg {
+    margin-left: 5%;
+    margin-top: 1%;
+    background-color: rgb(255, 255, 255);
+}
+
+.mdsprecomputedsvg {
+    margin-left: 25%;
+    margin-top: 1%;
+    background-color: rgb(255, 255, 255);
+}
+
+label {
+    font-size: 20px;
+}
+
+#img {
+    height: 50px;
+    width: 100px;
+}
+
+body {
+    background-color: rgb(255, 235, 238);
+}
+
+tr {
+    background-color: #333;
+}
+
+td {
+    background-color: #0099FF;
+}
+
+table {
+    color: #FFFFFF;
+    margin-top: 4%;
+    margin-left: 4%
+}
+
+.axis--x line {
+    stroke: lightgrey;
+    opacity: 0.3
+}
+
+.axis--y line {
+    stroke: lightgrey;
+    opacity: 0.3
+}
+
+.heading {
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+}
